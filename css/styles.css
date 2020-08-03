@@ -5,8 +5,8 @@
 
 /* ---- Base Rules ---- */
 body {
-    background: rgb(136,203,171);
-    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    background: rgb(136,200,171);
+    background: linear-gradient(0deg, rgba(136,200,171,1) 0%, rgba(0,13,60,1) 100%);
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
@@ -41,7 +41,7 @@ p {
 
 /* ---- Layout Rules ---- */
 main {
-    margin: 10vh 1em 10vh;
+    margin: 6vh 1em 10vh;
 }
 
 .main-hero {
@@ -58,7 +58,7 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
-.navbar__menu ul {
+/* .navbar__menu ul {
     padding-left: 0;
     margin: 0;
     text-align: right;
@@ -68,17 +68,22 @@ section {
     display: inline-block;
 }
 
-.navbar__menu .menu__link {
+.navbar__menu .nav-list-item {
     display: block;
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
     color: #00F;
-}
+} */
 
-.navbar__menu .menu__link:hover {
-    background: #333;
-    color: #fff;
+.navbar__menu .nav-list-item:hover {
+    background: #000;
+    color: #000;
+    transition: ease 0.3s all;
+}
+.navbar__menu .your-active-class {
+    background: #000;
+    color: #000;
     transition: ease 0.3s all;
 }
 
